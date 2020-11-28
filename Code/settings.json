@@ -1,0 +1,31 @@
+{
+    "java.home": "/Library/Java/JavaVirtualMachines/openjdk-13.0.2.jdk/Contents/Home",
+    "[java]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Cobalt2",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.semanticHighlighting.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 0,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/sakai/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "files.autoSave": "onFocusChange",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:8080",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "right",
+    "git.autofetch": true
+}

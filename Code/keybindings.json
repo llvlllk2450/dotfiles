@@ -1,0 +1,103 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+q ctrl+q",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+a ctrl+a",
+        "command": "cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+left",
+        "command": "-cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "list.toggleSelection",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "-list.toggleSelection",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "search.action.replaceAllInFile",
+        "when": "fileMatchFocus && replaceActive && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "-search.action.replaceAllInFile",
+        "when": "fileMatchFocus && replaceActive && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "search.action.replaceAllInFolder",
+        "when": "folderMatchFocus && replaceActive && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "-search.action.replaceAllInFolder",
+        "when": "folderMatchFocus && replaceActive && searchViewletVisible"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "colonize.newline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-colonize.newline",
+        "when": "editorTextFocus"
+    }
+]
